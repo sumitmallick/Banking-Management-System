@@ -17,7 +17,7 @@ def deposit_view(request):
         # adds users deposit to balance.
         deposit.user.account.balance += deposit.amount
         deposit.user.account.save()
-        messages.success(request, 'You Have Deposited {} $.'
+        messages.success(request, 'You Have Deposited {} ₹.'
                          .format(deposit.amount))
         return redirect("home")
 
@@ -41,7 +41,7 @@ def withdrawal_view(request):
         withdrawal.user.account.save()
 
         messages.success(
-            request, 'You Have Withdrawn {} $.'.format(withdrawal.amount)
+            request, 'You Have Withdrawn {} ₹.'.format(withdrawal.amount)
         )
         return redirect("home")
 

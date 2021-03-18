@@ -23,7 +23,7 @@
     <h4><b>Account Created: </b>{{ user.date_joined|date:'d-m-Y' }}</h4>
     <h4><b>Account No: </b>{{ user.account_no }}</h4><br><br>
     <div class="well">
-    <h4 class="card"><b>Account Balance: </b>{{ user.balance }} $</h4>
+    <h4 class="card"><b>Account Balance: </b>{{ user.balance }} ₹</h4>
     <a class="btn btn-success" href="{% url 'transactions:deposit' %}">Deposit</a>
     <a class="btn btn-danger" href="{% url 'transactions:withdrawal' %}">Withdraw</a>
     </div>
@@ -44,7 +44,7 @@
       <th>#</th>
       <th>Date / Time</th>
       <th>Details</th>
-      <th>Amount ($)</th>
+      <th>Amount (₹)</th>
     </tr>
   </thead>
   <tbody>
@@ -74,7 +74,7 @@
       <th>#</th>
       <th>Date / Time</th>
       <th>Details</th>
-      <th>Amount ($)</th>
+      <th>Amount (₹)</th>
     </tr>
   </thead>
   <tbody>
@@ -104,7 +104,7 @@
       <th>#</th>
       <th>Date / Time</th>
       <th>Details</th>
-      <th>Amount ($)</th>
+      <th>Amount (₹)</th>
     </tr>
   </thead>
   <tbody>
