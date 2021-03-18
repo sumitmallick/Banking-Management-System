@@ -81,7 +81,7 @@ def login_view(request):
             return redirect("home")
 
         context = {"form": form,
-                   "title": "Load Account Details",
+                   "title": "Login/Enter Your Account Details",
                    }
 
         return render(request, "accounts/form.html", context)
