@@ -10,6 +10,7 @@ git clone https://github.com/sumitmallick/DjangoBank.git
 virtualenv env
 source env/bin/activate
 pip install -r requirements.txt
+cd src
 ```
 **3.Migrate Database**
 ```sh
