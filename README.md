@@ -17,9 +17,15 @@ cd src
 python manage.py makemigrations
 python manage.py migrate
 ```
-**4.Run Server**
+**4.Create Superuser**
+```sh
+python manage.py createsuperuser
+```
+**5.Run Server**
 ```sh
 python manage.py runserver
 ```
+
+> while creating a new user it will generate a account number with which any user can login 
 
 
