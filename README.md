@@ -3,7 +3,7 @@
 ## Installation:
 **1.Clone Repo**
 ```sh
-https://github.com/sumitmallick/Banking-Management-System.git
+git clone https://github.com/sumitmallick/Banking-Management-System.git
 ```
 **2.Setup Virtualenv & Install Requirements**
 ```sh
